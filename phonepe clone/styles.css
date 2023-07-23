@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    
+    color: aliceblue;
+}
+
+.navbar{
+    padding: 0%;
+    background-color: blueviolet;
+}
+
+.logoo{
+    width: 150px;
+    float: left;
+}
+
+.container-fluid{ 
+    background-color: blueviolet;
+}
+ 
+.headingmotto h1{  
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 10px;
+    
+    
+}
+.btn ,#motto{
+    margin: 12px;
+    padding:2% 3%;
+}
+
+.big-phone img{
+    
+    /* position: absolute; */
+    
+    padding: 9%;
+}
+.biglogo {
+    transform: rotate(20deg);
+    width: 300px;
+    max-width: 65%;
+    height: auto;
+    left: 20%;
+}
+
+.whitesection{
+    padding: 4% 12%;
+    text-align: center;
+    position: relative;
+}
+.whitesection img{
+    left:50%;
+    width: 100px;
+}
+.whitesection .card{
+    width: 18rem;
+    margin: 20px 30px;
+    place-items: center;
+    padding: 20px;
+    box-shadow: 7px 12px 30px 0px;/* x, y , blur, spread
+    */
+}   
+
+.whitesection .card p{
+    font-size: small;
+}
+
+.last{
+    padding: 20px 20px 80px 20px ;
+    background-color: #c2bbbb;
+}
+.last .comment img  {
+    width: 120px;
+    border-radius: 100%;
+    text-align: center;
+}
+.dhande_ka_malik img{
+    height: 50px;
+    width: auto;
+    padding: 10px 30px;
+}
+.words{
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    transform: scale(0);
+}
+
+.bo:hover .words{
+    transform: scale(1);
+}
